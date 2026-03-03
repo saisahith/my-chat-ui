@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && mkdir public",
+    "build": "next build && mkdir public && echo '<!doctype html><title>ok</title>' > public/index.html",
     "start": "next start",
     "lint": "eslint"
   },
